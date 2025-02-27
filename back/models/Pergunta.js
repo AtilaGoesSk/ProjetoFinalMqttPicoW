@@ -1,7 +1,7 @@
 const { Sequelize, sequelize } = require('../database');
 const Usuario = require('./Usuario');
 
-class Pergunta extends Sequelize.Model {}
+class Pergunta extends Sequelize.Model {} // seq m pEGUNTA
 
 Pergunta.init({
     id_pergunta: {
